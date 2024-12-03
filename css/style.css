@@ -1,0 +1,563 @@
+ body{
+    margin: 0;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+/*Font
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+*/
+
+/*-------------topo-do-site------------*/
+.cabecalho {
+    margin-top: 0px;
+    background-color: rgb(41, 80, 124);
+    position: relative;
+    padding-top: 10px;
+}
+
+.texto-header{
+    color: rgb(158, 218, 241);
+    margin-top: 0;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 130%;
+    position: absolute;
+    bottom: 38%;
+    left: 25%;
+    text-decoration: none;
+   padding-left: 0px 76px;
+} 
+
+/* .conhecimento-link{
+    position: absolute;
+    bottom: 84%;
+    left: 72%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.conhecimento-link:hover {
+    color: rgb(158, 218, 241);
+}
+
+.contato-link{
+    position: absolute;
+    bottom: 84%;
+    left: 85%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.contato-link:hover {
+    color: rgb(158, 218, 241);
+} */
+
+.img-cabecalho {
+    width: 15%;
+    position: relative;
+    right: 1%;
+    padding-top: 4px;
+    padding-bottom: 8px;
+}
+
+.p-cabecalho {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;;
+    color: rgb(41, 80, 124);
+    font-size: 180%;
+    padding-bottom: 5px;
+}
+
+.texto-a {
+    display: inline;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+span {
+    text-decoration: underline;
+    font-family: "Pacifico", cursive;
+}
+
+.eu-foto{
+    width: 14%;
+    margin-bottom: 14px;
+    /* position: relative; só funciona se tiver em posição diferente do static
+     animation: flutuar 2s ease-in-out infinite alternate;  velocidade começa suave, rapida no meio e termina suave
+    fica infinito e dps fica alternado 0/100 e 100/0
+}
+
+@keyframes flutuar { /*animação css
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 30px;
+    } */
+}
+
+.resumo-text{
+    font-size: 143.75%;
+}
+
+.work {
+    text-decoration: none;
+    color:rgb(41, 80, 124);
+}
+
+.work:hover {
+    color: rgb(63, 180, 145);
+}
+
+.tabela {
+    background-color: #e4f0f5;
+    border: 1px solid rgb(255, 255, 255);
+    letter-spacing: 1px;
+    border-spacing: 10px;
+}
+
+.cabecalho-xp {
+    background-color: #2c5e77;
+    color: #fff;
+}
+
+/*-------------SOBRE-MIM/Conteúdo------------*/
+.conteudo {
+    margin: 55px auto;
+}
+
+.skills-row {
+    width: 50%;
+    margin: 80px auto 10px auto;;
+    text-align: left;
+    line-height: 2;
+}
+
+.sobre-eu-text {
+    font-size: 28px;
+    color: rgb(41, 80, 124);
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.sobre-eu-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+} 
+    
+.desenvolvedor-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.experiencia-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.my-skills-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-text{
+    font-size: 25px;
+    color: rgb(41, 80, 124);
+}
+
+th, td {
+    border: 1px solid #e4f0f5;
+    padding: 8px 1px;
+}
+
+h1{
+    color: rgb(41, 80, 124);
+    font-size: 175%;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+h2{
+    color: rgb(41, 80, 124);
+    margin-left: 15px;
+    font-size: 160%;
+}
+
+h3{
+    color: rgb(41, 80, 124);
+    margin-left: 15px;
+    font-size: 170%;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+}
+
+hr{
+    border: dotted lightgray 8px;
+    border-bottom: none;
+    width: 5%;
+    margin: 70px auto;
+    
+}
+
+p {
+    font-family: "Fredoka", sans-serif;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.contato {
+    margin: 100px auto;
+    line-height: 2;
+}
+
+.btn {
+    background: #29507C;
+    background-image: -webkit-linear-gradient(top, #29507C, #29507C);
+    background-image: -moz-linear-gradient(top, #29507C, #29507C);
+    background-image: -ms-linear-gradient(top, #29507C, #29507C);
+    background-image: -o-linear-gradient(top, #29507C, #29507C);
+    background-image: linear-gradient(to bottom, #29507C, #29507C);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 25px;
+  }
+  
+  .btn:hover {
+    background: #29507c;
+    background-image: -webkit-linear-gradient(top, #29507c, #3498db);
+    background-image: -moz-linear-gradient(top, #29507c, #3498db);
+    background-image: -ms-linear-gradient(top, #29507c, #3498db);
+    background-image: -o-linear-gradient(top, #29507c, #3498db);
+    background-image: linear-gradient(to bottom, #29507c, #3498db);
+    text-decoration: none;
+  }
+
+/*--------------Footer--------------*/
+.fa-linkedin {
+    font-size: 42px !important;
+    color: #fff;
+    border-radius: 30px;
+    width: 39px;
+    position: relative;
+    top: 25px;
+    right: 20px;
+}
+
+.fa-github {
+    font-size: 42px !important;
+    border-radius: 30px;
+    color: #ffffff;
+    width: 39px;
+    position: relative;
+    top: 25px;
+    left: 20px;
+}
+
+.f-container{
+    background-color: rgb(41, 80, 124);
+    color: #ffffff;
+    margin-top: 25px;
+    text-align: center;
+    width: auto;
+}
+
+.copyright {
+    font-family: "Fredoka", sans-serif;
+    font-size: 20px;
+    line-height: 0;
+    padding-top: 45px;
+} 
+
+.texto-final{
+    font-size: 10px;
+}
+
+
+/*Responsividade Celular*/
+
+/* Consulta específica para telas entre 360px e 800px */
+    @media only screen and (min-width: 360px) and (max-width: 800px) {
+        .texto-header{
+            color: rgb(158, 218, 241);
+           /*  font-family: "Pacifico", cursive; */
+            font-family: "Bebas Neue", sans-serif;
+            margin-top: 0;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 210%;
+            position: absolute;
+            padding: 0px 96px;
+        }
+
+        .img-cabecalho {
+            margin-top: 3px;
+            width: 65%; 
+        }
+
+        .eu-foto {
+            width: 55%;
+        }
+
+        .sobre-eu-img {
+            width: 100%; 
+        }
+    
+        .desenvolvedor-img {
+            width: 100%; 
+        }
+    
+        .experiencia-img{
+            width: 100%; 
+        }
+    
+        .my-skills-img {
+            width: 100%; 
+        }
+    
+        h3 {
+            margin-left: 0px;
+        }
+    
+        tr, th {
+            padding: 8px 12px;
+        }
+    
+        .tabela {
+            letter-spacing: 2px;
+            border-spacing: 2px;
+            position: relative;
+            right: 40%;
+            width: 180%;
+        }
+    
+        p {
+            font-size: 22px;
+        }
+    
+
+        .copyright {
+            font-size: 16px;
+        }
+    
+        .texto-final {
+            font-size: 12px;
+        }
+    
+        .fa-github {
+            left: 14px;
+        }
+    
+        .fa-linkedin {
+            top: 24px;
+        }
+    }
+
+
+    @media only screen and (min-width: 414px) and (max-width: 896px) {
+        .texto-header{
+            color: rgb(158, 218, 241);
+           /*  font-family: "Pacifico", cursive; */
+            font-family: "Bebas Neue", sans-serif;
+            margin-top: 0;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 210%;
+            position: absolute;
+            padding: 0px 123px;
+        }
+
+        p {
+            font-size: 25px;
+        }
+    }
+
+    @media only screen and (min-width: 390px) and (max-width: 844px) {
+        .texto-header{
+            color: rgb(158, 218, 241);
+           /*  font-family: "Pacifico", cursive; */
+            font-family: "Bebas Neue", sans-serif;
+            margin-top: 0;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 210%;
+            position: absolute;
+            padding: 0px 111px;
+        }
+
+        p {
+            font-size: 25px;
+        }
+    }
+
+    /*Responsividade Tablets*/
+
+    @media only screen and (min-width: 820px) and (max-width: 1180px) {
+        .texto-header{
+            color: rgb(158, 218, 241);
+           /*  font-family: "Pacifico", cursive; */
+            font-family: "Bebas Neue", sans-serif;
+            margin-top: 0;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 255%;
+            position: absolute;
+            padding: 0px 326px;
+        }
+
+        .img-cabecalho {
+            width: 50%;
+            margin-top: 7px;
+        }
+
+        .p-cabecalho {
+            font-size: 200%;
+        }
+
+        .eu-foto {
+            width: 30%;
+        }
+
+        .sobre-eu-img {
+            width: 50%; 
+            float: right;
+        }
+    
+        .desenvolvedor-img {
+            width: 50%; 
+        }
+    
+        .experiencia-img{
+            width: 50%; 
+            float: inherit;
+        }
+    
+        .my-skills-img {
+            width: 50%; 
+            float: none;
+        }
+        
+        th, td {
+            font-size: 20px;
+        }
+
+        .tabela {
+            letter-spacing: 2px;
+            border-spacing: 2px;
+            position: relative;
+            right: 40%;
+            width: 185%;
+        }
+
+        .fa-github {
+            left: 22px;
+        }
+        p {
+          /*   font-size: 30px;
+            padding-left: 15px; */
+        }
+    }
+
+    @media only screen and (min-width: 800px) and (max-width: 1279px) {
+        .texto-header{
+            color: rgb(158, 218, 241);
+           /*  font-family: "Pacifico", cursive; */
+            font-family: "Bebas Neue", sans-serif;
+            margin-top: 0;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 255%;
+            position: absolute;
+            padding: 0px 326px;
+        }
+
+        .img-cabecalho {
+            width: 45%;
+            margin-top: 7px;
+        }
+
+        .p-cabecalho {
+            font-size: 200%;
+        }
+
+        .eu-foto {
+            width: 30%;
+        }
+
+        .sobre-eu-img {
+            width: 50%; 
+            float: right;
+        }
+    
+        .desenvolvedor-img {
+            width: 50%; 
+        }
+    
+        .experiencia-img{
+            width: 50%; 
+            float: inherit;
+        }
+    
+        .my-skills-img {
+            width: 50%; 
+            float: none;
+        }
+        
+        th, td {
+            font-size: 22px;
+        }
+
+        .tabela {
+            letter-spacing: 2px;
+            border-spacing: 2px;
+            position: relative;
+            right: 40%;
+            width: 185%;
+        }
+
+        .fa-github {
+            left: 22px;
+        }
+
+        p {
+            font-size: 30px;
+            padding-left: 15px;
+        }
+    }
+
+  /*   Responsividade Galaxy Fold */
+    @media only screen and (min-width: 884px) and (max-width: 1104px) {
+        .texto-header{
+            padding: 0px 340px;
+        }
+
+        .img-cabecalho {
+            width: 50%;
+            margin-top: 4px;
+        }
+
+        .my-skills-img {
+            width: 50%; 
+            float: inline-end;
+        }
+
+        .experiencia-img{
+            width: 50%; 
+            float: inline-end;
+        }
+    }
