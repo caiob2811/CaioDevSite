@@ -87,19 +87,8 @@ span {
 .eu-foto{
     width: 14%;
     margin-bottom: 14px;
-    /* position: relative; só funciona se tiver em posição diferente do static
-     animation: flutuar 2s ease-in-out infinite alternate;  velocidade começa suave, rapida no meio e termina suave
-    fica infinito e dps fica alternado 0/100 e 100/0
 }
 
-@keyframes flutuar { /*animação css
-    0% {
-        top: 0;
-    }
-    100% {
-        top: 30px;
-    } */
-}
 
 .resumo-text{
     font-size: 143.75%;
