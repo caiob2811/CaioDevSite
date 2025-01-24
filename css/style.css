@@ -370,10 +370,6 @@ p {
             position: absolute;
             padding: 0px 123px;
         }
-
-        h3 {
-            margin-left: 0;
-        }
     }
 
     @media only screen and (min-width: 390px) and (max-width: 844px) {
