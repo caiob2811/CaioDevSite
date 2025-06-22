@@ -237,6 +237,12 @@ p {
     text-decoration: none;
   }
 
+  .btn:active {
+    background-image: linear-gradient(to bottom,#3498db, #5bace1 );
+    transform: scale(0.98);
+
+  }
+
   .curriculo {
     margin: 46px auto 68px;
   }
@@ -280,6 +286,53 @@ p {
 .texto-final{
     font-size: 10px;
 }
+
+/*-----------------PROJETOS--------------------*/
+
+.flex {
+	display: flex;
+    justify-content: space-around;
+    margin-bottom: 194px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.div-link1{
+    border: 1px solid black;
+    width: 330px;
+    height: 170px;
+    background-color: black;
+    color: #ffffff;
+}
+
+.div-link2{
+    border: 1px solid black;
+    width: 330px;
+    height: 170px;
+}
+
+.img-git {
+    width: 290px;
+    height: 104px;
+}
+
+.img-vercel {
+    width: 210px;
+    height: 104px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Responsividade Celular*/
